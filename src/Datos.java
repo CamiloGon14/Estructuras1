@@ -6,10 +6,10 @@ public class Datos {
         int TreintaydosBits = 2147483647;//int
         long SesentaycuatroBits =9223372036;//long
     //Punto Flotante
-        //float
-        //double
+        float Flotante = 14.12F;  //float
+        double Decimal=20.06;//double
     //Caracter
-        //char
+        char Unicode='A';//char
     //Booleano
-        //boolean
+        boolean SioNo=true;;//boolean
 }
