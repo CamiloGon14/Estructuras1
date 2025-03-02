@@ -20,5 +20,14 @@ public class Estructuras {
             }
         //Bucles o ciclos
             //ciclo for
+            for(int i=0;i<5;i++){
+                System.out.println("->"+i);
+            }
             //ciclo while
+            int j=5;
+            while(j<5){
+                System.out.println("->"+j);
+                j++;
+            }
+
 }
