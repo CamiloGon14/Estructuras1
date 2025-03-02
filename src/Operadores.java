@@ -1,9 +1,15 @@
 public class Operadores {
-    public static void main(String[] args) {
         // Operadores
-        int a = 8;
-        int b = 2;
+        //Atributos (Se me olvido que era una clase)
+        int a,b;
+        //Constructor
+        public Operadores(int a, int b) {
+            this.a = a;
+            this.b = b;
+            realizarOperaciones();
+        }
 
+    public void realizarOperaciones() {
         // Aritméticos: +, -, *, /, %
         int Suma = a + b;
         System.out.println("Suma: " + Suma);
