@@ -11,7 +11,7 @@ public class Main {
         Estructuras estructuras = new Estructuras();
 
         estructuras.verificarEdad(18);
-        estructuras.seleccionarOpcion(3);
+        estructuras.seleccionarOpcion();
         estructuras.ejecutarFor();
         estructuras.ejecutarWhile();
         //Calculadora
@@ -125,6 +125,5 @@ public class Main {
         double celsius = scanner.nextDouble(); // Lee la temperatura en Celsius
         double fahrenheit = (celsius * 9/5) + 32; // Convierte a Fahrenheit
         System.out.println("Temperatura en Fahrenheit: " + fahrenheit); // Imprime el resultado
-    }
     }
 }

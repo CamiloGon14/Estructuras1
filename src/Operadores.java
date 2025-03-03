@@ -20,7 +20,7 @@ public class Operadores {
         int Div = a / b;
         System.out.println("División: " + Div);
         int Mod = a % b;
-        System.out.println("Módulo: " + Mod)
+        System.out.println("Módulo: " + Mod);
 
         // Relacionales: ==, !=, >, <, >=, <=
         boolean Igual = a == b;

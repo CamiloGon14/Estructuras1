@@ -10,13 +10,15 @@ public class Estructuras {
         }
     }
             //switch
-            public void verificarEdad(int edad) {
-                int Opc = 3;
-                swicht(Opc) {
+            public void seleccionarOpcion() {
+                int Opc=3;
+                switch(Opc){
                     case 1:
                         System.out.println("Opcion 1");
+                        break;
                     case 2:
                         System.out.println("Opcion 2");
+                        break;
                     default:
                         System.out.println("Opcion invalida");
                 }
